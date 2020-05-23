@@ -54,7 +54,7 @@ FAST_MODE = True
 PARSE_MODE = "phrase" #"word"
 # load the dataset
 debug_data = ["../data/toy.txt"]
-data_files = ["../data/democratic_cleaned.txt", "../data/republican_cleaned.txt"]
+data_files = ["../data/democratic_cleaned_min.txt", "../data/republican_cleaned_min.txt"]
 data_fname = debug_data if DEBUG else data_files
 political_pair_data = "../data/political_pairs.tsv"
 hashtag_pair_data = "../data/hashtag_pairs.csv"
